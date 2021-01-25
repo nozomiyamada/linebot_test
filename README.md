@@ -106,3 +106,11 @@ $ source .venv/bin/activate
 ~~~
 (.venv) $ pip freeze > requirements.txt
 ~~~
+
+# What is environment variable?
+
+ตัวแปลที่เซฟไว้ใน OS ซึ่งสามาระอ้างอิงได้โดย `os.environ['<ชื่อตัวแปล>']`
+
+ใช้เพื่อโหลด ไอดี รหัด เป็นต้น ซึ่งไม่ควรจะเขียนลงในโปรแกรม (แต่ที่นี่เป็น private repository คนอื่นก็มองไม่เห็น)
+
+ถ้าใช้ library `dotenv` สามารถโหลดจากไฟล์ `.env` ได้
