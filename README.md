@@ -63,3 +63,15 @@ curl -v -X POST https://api.line.me/v2/bot/message/reply \
 ~~~
 
 แต่มี SDK (software development kit) สำหรับ Python ด้วย จึงไม่ต้องเขียนเอง (import library แล้วรับ/ส่งได้ง่าย)
+
+# What is Front End / Back End ?
+
+website ปัจจุบันหน้าตาเป็นแบบนี้
+
+![front_end](https://user-images.githubusercontent.com/44984892/105697436-21cf3600-5f37-11eb-8898-148b062e4a89.png)
+
+back end = web/application/database server อาจจะเป็นอันเดียวกันก็ได้ ยังไงต้องมีโปรแกรมเบื้อนหลัง ซึ่งเขียนโดยภาษาอะไรก็ได้
+
+Python มี Framework ดังสองอย่าง ได้แก่ `Django` กับ `Flask` ถ้าทำโปรแกรมเล็กๆ Flask น่าจะง่ายกว่า
+
+ทีนี้ ไม่ต้องทำ frontend เพราะไม่มี website แค่ทำ backend ที่จัดการข้อความก็พอ
